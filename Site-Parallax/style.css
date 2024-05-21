@@ -30,8 +30,6 @@ header {
 
 #secao1 {
     background-image: url('background1.jpg');
-    position: absolute;
-    top: 50%;
 }
 
 .caixa-secao1 {
