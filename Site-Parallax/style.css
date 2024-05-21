@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.barra-de-cima {
+    height: 100px;
+    width: auto;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(43, 43, 43);
+}
+
+.parallax {
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#secao1 {
+    background-image: url('background1.jpg');
+    position: absolute;
+    top: 50%;
+}
+
+.caixa-secao1 {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#secao1 .caixa-secao1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#secao2 {
+    background-image: url('background2.jpg');
+}

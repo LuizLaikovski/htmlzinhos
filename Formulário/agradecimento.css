@@ -1,0 +1,28 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 97.5vh;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
